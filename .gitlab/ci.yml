@@ -12,7 +12,7 @@ build:
   stage: build
   script: 
     - npm ci
-    - npm run build
+    - npm run build-relative
   artifacts:
     paths:
       - dist/
